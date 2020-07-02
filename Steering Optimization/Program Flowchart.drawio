@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net" modified="2020-07-02T10:19:23.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="gTrp7U3HtlAHO1g_B3bR" version="13.3.6" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1730" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="lchgeskNPo1s0grgaB34-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XTKUXPqXft_t8_gjSme8-1" target="XTKUXPqXft_t8_gjSme8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTKUXPqXft_t8_gjSme8-1" value="Start MATLAB&lt;br&gt;Script" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="138.5" y="35" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XTKUXPqXft_t8_gjSme8-7" target="XTKUXPqXft_t8_gjSme8-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="584" />
+              <mxPoint x="370" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XTKUXPqXft_t8_gjSme8-7" target="lchgeskNPo1s0grgaB34-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTKUXPqXft_t8_gjSme8-7" value="If l&lt;sub&gt;s&lt;/sub&gt;&amp;nbsp;&amp;lt; max limit for iteration (ls_end)" style="rhombus;whiteSpace=wrap;html=1;spacingLeft=20;spacingRight=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="143" y="529" width="111" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XTKUXPqXft_t8_gjSme8-15" target="XTKUXPqXft_t8_gjSme8-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTKUXPqXft_t8_gjSme8-15" value="&lt;span&gt;Create variables and equations for calculation of l&lt;/span&gt;&lt;sub&gt;s&lt;/sub&gt;&lt;span&gt;, s, error and l&lt;/span&gt;&lt;sub&gt;t&lt;/sub&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="128.5" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XTKUXPqXft_t8_gjSme8-17" target="XTKUXPqXft_t8_gjSme8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTKUXPqXft_t8_gjSme8-17" value="&lt;span&gt;Initialize local parameters and assign preset values&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="138.5" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XTKUXPqXft_t8_gjSme8-21" target="XTKUXPqXft_t8_gjSme8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTKUXPqXft_t8_gjSme8-21" value="&lt;span&gt;Set Initial value of l&lt;/span&gt;&lt;sub&gt;s&lt;/sub&gt;&lt;span&gt;&amp;nbsp;and s (l&lt;/span&gt;&lt;sub&gt;s&lt;/sub&gt;&lt;span&gt;= Initial_l&lt;/span&gt;&lt;sub&gt;s&lt;/sub&gt;&lt;span&gt;&amp;nbsp;and s = initial_s)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="430" width="157" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XTKUXPqXft_t8_gjSme8-25" target="XTKUXPqXft_t8_gjSme8-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTKUXPqXft_t8_gjSme8-25" value="&lt;span&gt;Calculate l&lt;/span&gt;&lt;sub&gt;t&amp;nbsp;&lt;/sub&gt;&lt;span&gt;and absolute value of error based on current values of l&lt;/span&gt;&lt;sub&gt;s&amp;nbsp;&lt;/sub&gt;&lt;span&gt;and s&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="144.5" y="880" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XTKUXPqXft_t8_gjSme8-28" target="XTKUXPqXft_t8_gjSme8-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTKUXPqXft_t8_gjSme8-28" value="&lt;span&gt;Store values of l&lt;/span&gt;&lt;sub&gt;s&lt;/sub&gt;&lt;span&gt;, s, error and l&lt;/span&gt;&lt;sub&gt;t&amp;nbsp;&lt;/sub&gt;&lt;span&gt;in a table (newT)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="377" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XTKUXPqXft_t8_gjSme8-30" target="lchgeskNPo1s0grgaB34-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XTKUXPqXft_t8_gjSme8-30" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;Append values of newT to existing Table&lt;/span&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="629.998823529412" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XTKUXPqXft_t8_gjSme8-41" target="lchgeskNPo1s0grgaB34-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XTKUXPqXft_t8_gjSme8-41" value="Export Table as excel" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="680.0000000000002" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XTKUXPqXft_t8_gjSme8-43" value="&#xa;&#xa;&lt;b style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;Variables used for program (Given inputs):&lt;/b&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;ul style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;li&gt;syms: ls - steering arm length (variable)&lt;/li&gt;&lt;li&gt;syms s - distance from the front axle to the steering rack axis&lt;/li&gt;&lt;li&gt;lw - Wheeltrack&lt;/li&gt;&lt;li&gt;la - Wheelbase&lt;/li&gt;&lt;li&gt;lrp - length of rack&lt;/li&gt;&lt;li&gt;alphad - angle of steering arms in degrees&lt;/li&gt;&lt;li&gt;u - maximum displacement of the rack&lt;/li&gt;&lt;/ul&gt;&#xa;&#xa;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="380" y="30" width="380" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XTKUXPqXft_t8_gjSme8-8" target="XTKUXPqXft_t8_gjSme8-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lchgeskNPo1s0grgaB34-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="198.49999999999977" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XTKUXPqXft_t8_gjSme8-8" value="If s &amp;lt; max limit for iteration (s_end)" style="rhombus;spacingLeft=25;spacingRight=25;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="180.25" y="750" width="123.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-0" value="&lt;b style=&quot;text-align: left&quot;&gt;Calculated values and equations- Intermediate variables:&lt;/b&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;ul style=&quot;text-align: left&quot;&gt;&lt;li&gt;r - distance from the wheel to the rack (eqn --)&lt;/li&gt;&lt;li&gt;lt_cal(ls,s) - eqn to calculate lengths of tie-rods (lt) (eqn --)&lt;/li&gt;&lt;li&gt;alpha - angle of steering arms in radians eqn(--)&lt;/li&gt;&lt;li&gt;theta_l - left steering angle eqn(--)&lt;/li&gt;&lt;li&gt;theta_r - right steering angle eqn (--)&lt;/li&gt;&lt;li&gt;delta_l - left tie-rod angle eqn(--)&lt;/li&gt;&lt;li&gt;delta_r - right tie-rod angle eqn(--)&lt;/li&gt;&lt;li&gt;R, P, Q - eqn (--,--,--)&lt;/li&gt;&lt;li&gt;Rl,Pl,Ql - eqn (--,--,--)&lt;/li&gt;&lt;li&gt;x_l - left axial point eqn(--)&lt;/li&gt;&lt;li&gt;x_r - right axial point eqn(--)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="220" width="360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-3" value="&lt;b style=&quot;text-align: left&quot;&gt;Iterating Values and limits:&lt;/b&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;ul style=&quot;text-align: left&quot;&gt;&lt;li&gt;ls_initial - initial value of ls in loop&lt;/li&gt;&lt;li&gt;ls_add - incrementing value of ls in loop&lt;/li&gt;&lt;li&gt;ls_end - limiting value of ls in loop&lt;/li&gt;&lt;li&gt;s_ initial - initial value of s in loop&lt;/li&gt;&lt;li&gt;s_add - incrementing value of s in loop&lt;/li&gt;&lt;li&gt;s_end - limiting value of s in loop&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="450" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lchgeskNPo1s0grgaB34-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="1040" />
+              <mxPoint x="50" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-18" value="Increment value of s by s_add" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="1010" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-22" value="Increment ls by ls_add" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="38.5" y="555" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XTKUXPqXft_t8_gjSme8-8" target="lchgeskNPo1s0grgaB34-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="198.49999999999977" y="510" as="targetPoint" />
+            <mxPoint x="136.74999999999977" y="730" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-26" value="Stop Matlab Script" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-28" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="287" y="566" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-29" value="Breaks about of loop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="247" y="585" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-30" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="198.5" y="639" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-31" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="780" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lchgeskNPo1s0grgaB34-33" target="XTKUXPqXft_t8_gjSme8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-33" value="Set value of ls to initial_ls" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="182" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-36" value="Check for further iteration" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;direction=east;rotation=-90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-40" y="840" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-37" value="Append values" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="1021" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-38" value="Adding data to main &lt;br&gt;table&amp;nbsp;which gets &lt;br&gt;exported" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="497" y="850" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lchgeskNPo1s0grgaB34-39" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="247" y="850" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
